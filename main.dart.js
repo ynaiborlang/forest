@@ -46375,11 +46375,11 @@ if(o==null){p.db=A.a([a.a,a.b,a.c],t.n)
 return}s=a.a
 r=a.b
 q=a.c
-if(Math.abs(s-o[0])+Math.abs(r-o[1])+Math.abs(q-o[2])>40){if(!p.dx){p.aD(new A.a2j(p))
+if(Math.abs(s-o[0])+Math.abs(r-o[1])+Math.abs(q-o[2])>30){if(!p.dx){p.aD(new A.a2j(p))
 A.pS("SHAKING L true")}o=p.dy
 if(o!=null)o.bw(0)
 p.dy=A.cU(A.cl(0,2500),new A.a2k(p))}p.db=A.a([s,r,q],t.n)},
-a4(a){var s=this,r=null,q=s.A0(s.z,-4,4,-100,100),p=s.A0(s.Q,-4,4,-100,100),o=s.f
+a4(a){var s=this,r=null,q=s.A0(s.z,-5,5,-100,100),p=s.A0(s.Q,-5,5,-100,100),o=s.f
 if(o!=null)o.mh(q)
 o=s.r
 if(o!=null)o.mh(p)
